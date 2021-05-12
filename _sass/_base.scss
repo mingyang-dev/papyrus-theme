@@ -13,6 +13,11 @@ body {
   font-size: $base-font-size;
   color: $text-color;
 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   a, a:hover {
     color: $alt-color;
   }
@@ -118,6 +123,7 @@ blockquote {
   padding: 16px;
   border-radius: 4px;
   border-top: 3px solid $alt-color;
+  flex-grow: 1;
 }
 
 .small-ornament, .big-ornament {
@@ -154,7 +160,7 @@ header {
 
 footer {
   margin-top: 1em;
-  margin-bottom: 1em;
+  padding-bottom: 1em;
   font-size: $small-font-size;
 
   color: $alt-text-color;

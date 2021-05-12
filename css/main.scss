@@ -23,6 +23,13 @@ $alt-text-color:   darken($article-bg-color, 60%);
 
 $subdued-border:   rgba($bg-color-darker, 0.5);
 
+$text-color: #d2cccc;
+$article-bg-color: #171717;
+$background-color: #131313;
+$bg-color-darker:  #353535;
+
+
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "base",
